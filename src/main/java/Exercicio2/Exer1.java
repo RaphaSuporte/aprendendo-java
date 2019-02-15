@@ -3,7 +3,7 @@ package Exercicio2;
 
 import java.util.Scanner;
 
-public class Main {
+public class Exer1 {
 
     public static void main(String[] args) {
         System.out.println("Entre True para Par ou False para Impar");
