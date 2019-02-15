@@ -1,12 +1,12 @@
 package Exercicio3;
 
 import java.util.Scanner;
-public class Main2{
+public class Exer2{
 
     public static void main(String[] args){
         int n,a,b;
         Scanner cal=new Scanner(System.in);
-        System.out.println("Digite o numero");
+        System.out.println("Digite o numero:");
         n=cal.nextInt();
 
         for(a=1; a<=n; a++){
