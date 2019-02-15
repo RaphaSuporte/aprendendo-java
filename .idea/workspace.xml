@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1941b1ff-1c49-4812-a6a5-c1a8f548cc44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio4/Exer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio4/Exer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio3/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio4/Main3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio3/Exer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio4/Exer3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio2/Exer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio4/Exer3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio5/Exer4.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +28,29 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio5/Exer4.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -76,6 +97,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Exercicio2/Exer1.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio4/Exer3.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio5/Exer4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" />
       </list>
     </option>
   </component>
@@ -124,6 +150,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aprendendojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendendojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aprendendojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendendojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550237876463" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550238901677" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
@@ -155,7 +197,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exer4">
+  <component name="RunManager" selected="Application.Exer4 (1)">
+    <configuration name="Exer4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio4.Exer4" />
+      <module name="aprendendojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio5.Exer4" />
       <module name="aprendendojava" />
@@ -169,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio2.Main" />
+    <configuration name="Exer5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio5.Exer5" />
       <module name="aprendendojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio2.*" />
+          <option name="PATTERN" value="Exercicio5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,26 +263,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio3.NumberPyramid" />
-      <module name="aprendendojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercicio3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exer4 (1)" />
+        <item itemvalue="Application.Exer5" />
         <item itemvalue="Application.Exer4" />
         <item itemvalue="Application.Main3 (1)" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.NumberPyramid" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -242,18 +284,18 @@
       <option name="presentableId" value="Default" />
       <updated>1549287009286</updated>
       <workItem from="1550072386980" duration="20800000" />
-      <workItem from="1550233375031" duration="3187000" />
+      <workItem from="1550233375031" duration="3849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23987000" />
+    <option name="totallyTimeSpent" value="24649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1433" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2617398" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2617398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -272,7 +314,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.49926794" weight="0.3298193" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" x="0" y="278" width="1366" height="219" id="Event Log" order="10" sideWeight="0.50292826" side_tool="true" weight="0.3298193" />
-      <window_info anchor="bottom" x="33" y="531" width="1366" height="219" id="Messages" order="11" sideWeight="0.49707174" visible="true" weight="0.44427" />
+      <window_info active="true" anchor="bottom" x="33" y="531" width="1366" height="219" id="Messages" order="11" sideWeight="0.49707174" visible="true" weight="0.44427" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -328,41 +370,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio3/Exer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio2/Exer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio4/Exer3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio4/Exer38.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state>
+          <caret selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio5/Exer4.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>

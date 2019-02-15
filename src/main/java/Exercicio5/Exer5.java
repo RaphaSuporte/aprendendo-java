@@ -1,7 +1,9 @@
 package Exercicio5;
 
 import java.util.Random;
-public class Exer4 {
+
+public class Exer5 {
+
         public static void main(String[] args) {
 
             Random gerador = new Random(19700621);
@@ -11,5 +13,4 @@ public class Exer4 {
             }
         }
     }
-
 

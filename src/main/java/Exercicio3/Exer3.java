@@ -1,7 +1,7 @@
 package Exercicio3;
 
 import java.util.Scanner;
-public class Exer2{
+public class Exer3{
 
     public static void main(String[] args){
         int n,a,b;
