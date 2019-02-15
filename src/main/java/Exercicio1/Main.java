@@ -12,7 +12,7 @@ public class Main {
 
         funcionario1.nome = "Paulo";
         funcionario1.idade = 30 ;
-        funcionario1.salario = 200000 ;
+        funcionario1.salario = 100 ;
         funcionario1.sexo = "Masculino";
 
         funcionario2.nome = "Renata";
@@ -21,7 +21,7 @@ public class Main {
         funcionario2.sexo = "Feminino";
 
         funcionario3.nome = "Lucas";
-        funcionario3.idade = 17;
+        funcionario3.idade = 18;
         funcionario3.salario = 500000;
         funcionario3.sexo = "Masculino";
 
@@ -32,7 +32,7 @@ public class Main {
     }
 
     public static void imprimir(Funcionario funcionario){
-        if(funcionario.idade >18 && funcionario.salario >1000.50){
+        if(funcionario.idade >= 18 && funcionario.salario >= 1000.50){
             System.out.println("Nome é " + funcionario.nome);
             System.out.println("Idade é " + funcionario.idade);
             System.out.println("Salário é " + funcionario.salario);
