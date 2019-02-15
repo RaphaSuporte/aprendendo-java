@@ -16,7 +16,8 @@ public class Exer2 {
                 if (i % 2 == 0)
                     System.out.println("Par: " + i);
 
-            }else
+            }
+        else
 
             for (int j = 0; j <= 100; j++) {
                 if (j % 2 != 0)
@@ -25,6 +26,6 @@ public class Exer2 {
             }
 
 
-        }
-
     }
+
+}

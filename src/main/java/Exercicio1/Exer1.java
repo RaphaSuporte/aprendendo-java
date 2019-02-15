@@ -11,8 +11,8 @@ public class Exer1 {
         Funcionario funcionario3 = new Funcionario();
 
         funcionario1.nome = "Paulo";
-        funcionario1.idade = 30 ;
-        funcionario1.salario = 100 ;
+        funcionario1.idade = 30;
+        funcionario1.salario = 100;
         funcionario1.sexo = "Masculino";
 
         funcionario2.nome = "Renata";
@@ -31,8 +31,8 @@ public class Exer1 {
 
     }
 
-    public static void imprimir(Funcionario funcionario){
-        if(funcionario.idade >= 18 && funcionario.salario >= 1000.50){
+    public static void imprimir(Funcionario funcionario) {
+        if (funcionario.idade >= 18 && funcionario.salario >= 1000.50) {
             System.out.println("Nome é " + funcionario.nome);
             System.out.println("Idade é " + funcionario.idade);
             System.out.println("Salário é " + funcionario.salario);

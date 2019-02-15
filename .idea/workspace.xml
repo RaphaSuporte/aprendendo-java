@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1941b1ff-1c49-4812-a6a5-c1a8f548cc44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio3/Exer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio4/Exer3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio2/Exer1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio4/Exer3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio5/Exer4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio6/Exer6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio6/Exer6.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,29 +24,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio6/Exer6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="220">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -97,10 +75,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Exercicio2/Exer1.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio4/Exer3.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio5/Exer4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio6/Exer6.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" />
       </list>
     </option>
@@ -156,6 +135,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aprendendojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendendojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aprendendojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendendojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aprendendojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendendojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Exercicio4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -165,6 +168,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Exercicio5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aprendendojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendendojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,7 +187,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550238901677" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550254923658" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
@@ -197,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exer4 (1)">
+  <component name="RunManager" selected="Application.Exer6">
     <configuration name="Exer4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio4.Exer4" />
       <module name="aprendendojava" />
@@ -237,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio3.Main2" />
+    <configuration name="Exer6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio6.Exer6" />
       <module name="aprendendojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio3.*" />
+          <option name="PATTERN" value="Exercicio6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exer6" />
         <item itemvalue="Application.Exer4 (1)" />
         <item itemvalue="Application.Exer5" />
         <item itemvalue="Application.Exer4" />
         <item itemvalue="Application.Main3 (1)" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -284,18 +295,18 @@
       <option name="presentableId" value="Default" />
       <updated>1549287009286</updated>
       <workItem from="1550072386980" duration="20800000" />
-      <workItem from="1550233375031" duration="3849000" />
+      <workItem from="1550233375031" duration="9039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24649000" />
+    <option name="totallyTimeSpent" value="29839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1433" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="1445" y="25" width="1287" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2617398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26418027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -305,7 +316,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298193" />
-      <window_info anchor="bottom" x="0" y="28" width="1366" height="740" id="Run" maximized="true" order="2" type="WINDOWED" visible="true" weight="0.32228917" />
+      <window_info anchor="bottom" x="0" y="28" width="1366" height="740" id="Run" order="2" type="WINDOWED" weight="0.32228917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,7 +325,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.49926794" weight="0.3298193" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" x="0" y="278" width="1366" height="219" id="Event Log" order="10" sideWeight="0.50292826" side_tool="true" weight="0.3298193" />
-      <window_info active="true" anchor="bottom" x="33" y="531" width="1366" height="219" id="Messages" order="11" sideWeight="0.49707174" visible="true" weight="0.44427" />
+      <window_info anchor="bottom" x="33" y="531" width="1366" height="219" id="Messages" order="11" sideWeight="0.49707174" weight="0.44427" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,9 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio4/Exer38.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -382,36 +390,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <caret selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio6/Exer6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
