@@ -1,36 +1,38 @@
 package Exercicio6;
 
-import java.util.Arrays;
+import java.util.Random;
 
 public class Exer6 {
 
+    public static int soParesEm() {
+        Random mat = new Random();
+        int par;
+        do {
+            par = mat.nextInt(30);
+        } while (par % 2 != 0);
+        return par;
+    }
+
     public static void main(String args[]) {
 
-        int numero1, numero2, aux = 0;
-        int ult = cap - 1;
-        //agrupar em pares
-        for (int i = 0; i < cap; i++) {
-            numero1 = v[i];
-            if (numero1 % 2 != 0) {
-                aux = v[ult];
-                if (aux % 2 == 0) {
-                    v[ult] = numero1;
-                    v[i] = aux;
-                }
+        int[][] matriz = new int[5][5];
+
+        Random mat = new Random();
+
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                matriz[i][j] = soParesEm();
             }
-            for (int j = i + 1; j < cap; j++) {
-                numero2 = v[j];
-                if (numero2 % 2 != 0) {
-                    aux = v[ult];
-                    if (aux % 2 == 0) {
-                        v[ult] = numero2;
-                        v[j] = aux;
-                    }
-                }
-            }
-            ult--;
+
         }
-    }
+
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println("\n");
+        }
+
     }
 
-
+}
