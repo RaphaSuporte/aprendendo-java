@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1941b1ff-1c49-4812-a6a5-c1a8f548cc44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Exercicio7/Exer7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio6/Teste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,20 +19,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio8/Exer8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="369">
+              <caret line="31" lean-forward="true" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -89,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio6/Teste.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio6/Exer6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio8/Exer8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java" />
       </list>
     </option>
   </component>
@@ -213,7 +201,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550347298884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550351957624" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
@@ -234,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exer8">
+  <component name="RunManager" selected="Application.Exer7">
     <configuration name="Exer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio3.Exer3" />
       <module name="aprendendojava" />
@@ -315,8 +303,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exer8" />
         <item itemvalue="Application.Exer7" />
+        <item itemvalue="Application.Exer8" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Exer3" />
         <item itemvalue="Application.Exer4 (1)" />
@@ -335,18 +323,18 @@
       <updated>1549287009286</updated>
       <workItem from="1550072386980" duration="20800000" />
       <workItem from="1550233375031" duration="9039000" />
-      <workItem from="1550320420028" duration="18608000" />
+      <workItem from="1550320420028" duration="19732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48447000" />
+    <option name="totallyTimeSpent" value="49571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26336792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26336792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -356,7 +344,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298193" />
-      <window_info anchor="bottom" x="67" y="579" width="1171" height="607" id="Run" order="2" sideWeight="0.49880287" visible="true" weight="0.23429541" />
+      <window_info active="true" anchor="bottom" x="67" y="579" width="1171" height="607" id="Run" order="2" sideWeight="0.49880287" visible="true" weight="0.23429541" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,7 +353,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.49926794" weight="0.3298193" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" x="0" y="278" width="1366" height="219" id="Event Log" order="10" sideWeight="0.50292826" side_tool="true" weight="0.3298193" />
-      <window_info anchor="bottom" x="33" y="531" width="1366" height="219" id="Messages" order="11" sideWeight="0.5011971" side_tool="true" weight="0.23429541" />
+      <window_info anchor="bottom" x="33" y="531" width="1366" height="219" id="Messages" order="11" sideWeight="0.5011971" side_tool="true" visible="true" weight="0.23429541" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -507,17 +495,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio8/Exer8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="31" lean-forward="true" selection-end-line="31" />
         </state>
       </provider>
     </entry>
