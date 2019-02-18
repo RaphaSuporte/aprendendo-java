@@ -3,29 +3,36 @@ package Exercicio7;
 import java.util.Random;
 
 public class Exer7 {
-    public static void main(String args[]) {
+
+    private static int soParesEm() {
+        Random mat = new Random();
+        int par;
+        do {
+            par = mat.nextInt(30);
+        } while (par % 2 != 0);
+        return par;
+    }
+
+    public static void main(String[] args) {
 
         int[][] matriz = new int[5][5];
 
         Random mat = new Random();
 
-        for (int i = 0; i < 1; i++) {
-            for (int j = 0; j < 1; j++) {
-
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                matriz[i][j] = soParesEm();
             }
 
         }
 
-        for (int i = 0; i < 1; i++) {
-            for (int j = 0; j < 1; j++) {
-                System.out.println("00 01 02 03 04 \n");
-                System.out.println("20 21 22 23 24 \n");
-                System.out.println("30 31 32 33 34 \n");
-                System.out.println("40 41 42 43 44 ");
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(i + "" + j + " " + matriz[i][j] + " ");
             }
+            System.out.println("\n");
         }
 
     }
-    }
 
-
+}
