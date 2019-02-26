@@ -1,21 +1,22 @@
 package Exercicio10;
 
+
+import java.util.Scanner;
+
 public class Exer10 {
 
-    public static void main(String[] args) {
+    public static void main( String[] args) {
 
-        Cliente cliente1 = new Cliente();
-        cliente1.setNome("Lucas");
-        cliente1.setPonto(10000);
-
-
-        cliente1.imprimir();
-
-        Cliente cliente2 = new Cliente();
-        cliente2.setNome("Osvaldo");
-        cliente2.setPonto(20000);
+        Scanner scanner = new Scanner (System.in);
+        System.out.println ("Digite Nome do Cliente ");
 
 
-        cliente2.imprimir();
+
+        Cliente imprimir = new Cliente ();
+
+        System.out.println (imprimir.nomecliente);
+        System.out.println (imprimir.pontoscliente);
+        System.out.println (imprimir.nomecliente1);
+        System.out.println (imprimir.pontoscliente1);
     }
 }

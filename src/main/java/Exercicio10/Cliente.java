@@ -1,30 +1,27 @@
 package Exercicio10;
 
 public class Cliente {
-    private String nome;
-    private String ponto;
 
-    public void imprimir() {
-        System.out.println("Nome: " + nome);
-        System.out.println("Pontos: " + ponto);
+    String nomecliente = "Lucas";
+    int pontoscliente = 20000;
 
+    String nomecliente1 = "Osvaldo";
+    int pontoscliente1 = 10000;
+
+
+    public String Nomecliente () {
+        return nomecliente;
     }
 
-    public String getNome() {
-        return nome;
+    public int pontoscliente () {
+        return pontoscliente;
+    }
+    public String Nomecliente1 () {
+        return nomecliente1;
     }
 
-    public void setNome(String nome) {
-        this.nome = getNome();
-    }
-
-    public String getsaldopontos(int i) {
-        return ponto;
-    }
-
-    public void setPonto(int ponto) {
-        this.ponto = (String) getsaldopontos(10000);
+    public int getPontoscliente1 () {
+        return pontoscliente1;
     }
 
 }
-
