@@ -4,12 +4,12 @@ import java.util.Random;
 
 public class Exer5 {
 
-    public static void main(String[] args) {
+    public static void main ( String[] args ) {
 
-        Random gerador = new Random(19700621);
+        Random gerador = new Random ( 19700621 );
 
         for (int i = 0; i < 10; i++) {
-            System.out.println(gerador.nextInt(25));
+            System.out.println ( gerador.nextInt ( 25 ) );
         }
     }
 }

@@ -17,13 +17,13 @@ funcionario1.sexo = "Masculino";
 
 funcionario2.nome = "Renata";
 funcionario2.idade = 50;
-funcionario2.salario = 1000000;
+funcionario2.salario = 10000;
 funcionario2.sexo = "Feminino";
 
 funcionario3.nome = "Lucas";
-funcionario3.idade = 18;
-funcionario3.salario = 500000;
-funcionario3.sexo = "Masculino";
+funcionario3.idade = 65;
+funcionario3.salario = 10051;
+funcionario3.sexo = "Masculino + ou - ";
 
 imprimir(funcionario1);
 imprimir(funcionario2);
