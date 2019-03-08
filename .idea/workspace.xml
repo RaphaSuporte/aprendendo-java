@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1941b1ff-1c49-4812-a6a5-c1a8f548cc44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio10/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio10/Passage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Exer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio1/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio1/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio11/Exer11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio11/Exer11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio13/Exer13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio2/Exer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio3/Exer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio4/Exer4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio5/Exer5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio6/Exer6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio6/Exer6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio7/Exer7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio8/Exer8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio8/Exer8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio9/Exer9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio9/Exer9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio10/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio10/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio10/Exer10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio10/Negocio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio10/Passagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio10/Passagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio10/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicio10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicio10/Passagem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio1/Exer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio1/Exer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio1/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio1/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio10/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio10/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio10/Passagem.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Exercicio11/Exer11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio11/Exer11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio13/Exer13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio2/Exer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio2/Exer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio3/Exer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio3/Exer3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio4/Exer4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio4/Exer4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio5/Exer5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio5/Exer5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio6/Exer6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio6/Exer6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio7/Exer7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio7/Exer7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio8/Exer8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio8/Exer8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercicio9/Exer9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exercicio9/Exer9.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,45 +46,43 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="aprendendojava" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="114">
+              <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
               <folding>
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#705#722#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Passagem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Passage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +159,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Exercicio9/Exer9.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio10/Passagem.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio10/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio10/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio10/Passage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercicio10/Teste.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercicio10/Main.java" />
       </list>
     </option>
@@ -189,6 +192,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,23 +218,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aprendendojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aprendendojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio10" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551884394117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552071803729" />
     <property name="last_opened_file_path" value="$USER_HOME$/CursoJava/src/Fundamentos/CursoJava" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -280,19 +291,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exer7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio7.Exer7" />
-      <module name="aprendendojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercicio7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Exer8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio8.Exer8" />
       <module name="aprendendojava" />
@@ -332,13 +330,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio10.Teste" />
+      <module name="aprendendojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Exer11" />
         <item itemvalue="Application.Exer9" />
         <item itemvalue="Application.Exer8" />
-        <item itemvalue="Application.Exer7" />
       </list>
     </recent_temporary>
   </component>
@@ -363,12 +374,14 @@
       <workItem from="1550841460201" duration="12106000" />
       <workItem from="1551196599620" duration="6775000" />
       <workItem from="1551271943270" duration="9494000" />
-      <workItem from="1551869018178" duration="12220000" />
+      <workItem from="1551869018178" duration="16240000" />
+      <workItem from="1551896610936" duration="33261000" />
+      <workItem from="1552041433146" duration="19712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131586000" />
+    <option name="totallyTimeSpent" value="188579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,9 +394,42 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33998403" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" weight="0.19393456" />
+      <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.19074222" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" weight="0.32960895" />
+      <window_info id="Favorites" order="7" sideWeight="0.50140846" side_tool="true" weight="0.19074222" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.5450918" weight="0.39728352" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3293718" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3293718" />
+      <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.49926794" weight="0.3298193" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32767403" />
+      <window_info anchor="bottom" x="0" y="278" width="1366" height="219" id="Event Log" order="9" sideWeight="0.46528333" side_tool="true" weight="0.23429541" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" x="33" y="531" width="1366" height="219" id="Messages" order="12" sideWeight="0.30327216" weight="0.23429541" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3293718" />
+      <window_info anchor="bottom" x="67" y="27" width="1299" height="741" id="Run" order="14" sideWeight="0.53471667" weight="0.29881155" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24980047" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32960895" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32960895" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19074222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,43 +460,27 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32960895" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33439744" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" weight="0.32960895" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298193" />
-      <window_info anchor="bottom" x="67" y="579" width="1171" height="607" id="Run" order="2" sideWeight="0.53471667" weight="0.23429541" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5450918" weight="0.39728352" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293718" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293718" />
-      <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.49926794" weight="0.3298193" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3282572" />
-      <window_info anchor="bottom" x="0" y="278" width="1366" height="219" id="Event Log" order="10" sideWeight="0.46528333" side_tool="true" weight="0.23429541" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" x="33" y="531" width="1366" height="219" id="Messages" order="13" sideWeight="0.30327216" visible="true" weight="0.23429541" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24980047" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32960895" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32960895" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties />
+        </breakpoint>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="detailMessage" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -627,39 +657,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Passagem.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/BiConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="435">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1099">
+          <caret line="2700" selection-start-line="2700" selection-end-line="2700" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="216" column="1" selection-start-line="216" selection-start-column="1" selection-end-line="216" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Cliente.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Passage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="417">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
             <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exercicio10/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="114">
+          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#705#722#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -720,7 +790,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
