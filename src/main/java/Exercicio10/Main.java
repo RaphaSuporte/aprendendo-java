@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.lang.String;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.BiConsumer;
 
 public class Main {
 
@@ -26,24 +27,26 @@ public class Main {
         tickets.put ( "RL6325", ticket2 );
 
         Scanner scanner = new Scanner ( System.in );
-        String nome;
-        AtomicReference<Integer> saldo = new AtomicReference<> ();
-        AtomicReference<Integer> compra = new AtomicReference<> ();
-        AtomicReference<Boolean> ticketFound = new AtomicReference<> ();
+        final String nome;
+        final AtomicReference<Integer> saldo = new AtomicReference<> ();
+        final AtomicReference<Integer> compra = new AtomicReference<> ();
+        final AtomicReference<Boolean> ticketFound = new AtomicReference<> ();
         ticketFound.set ( false );
         saldo.set ( 0 );
         compra.set ( 0 );
-        String origin;
-        String destination;
+        final String origin;
+        final String destination;
 
 
         System.out.println ( "Qual é o identificador do cliente?" );
         nome = scanner.nextLine ();
-        clients.forEach ( ( index, client ) -> {
-            if (nome.equals ( index )) {
-                saldo.set ( client );
+        clients.forEach (new BiConsumer<String, Integer>() {
+            public void accept(String index, Integer client) {
+                if (nome.equals(index)) {
+                    saldo.set(client);
+                }
             }
-        } );
+        });
 
         if (saldo.get () != 0) {
 
@@ -54,12 +57,14 @@ public class Main {
             System.out.println ( "Qual o Destino da passagem que deseja comprar?" );
             destination = scanner2.nextLine ();
 
-            tickets.forEach ( ( index, ticket ) -> {
-                if (origin.equals ( ticket.getOrigin () ) && destination.equals ( ticket.getDestination () )) {
-                    compra.set ( saldo.get () - ticket.getPoints () );
-                    ticketFound.set ( true );
+            tickets.forEach (new BiConsumer<String, Passage>() {
+                public void accept(String index, Passage ticket) {
+                    if (origin.equals(ticket.getOrigin()) && destination.equals(ticket.getDestination())) {
+                        compra.set(saldo.get() - ticket.getPoints());
+                        ticketFound.set(true);
+                    }
                 }
-            } );
+            });
             if (ticketFound.get ()) {
 
                 if (compra.get () < 0) {
