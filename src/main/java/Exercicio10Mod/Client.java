@@ -1,7 +1,5 @@
 package Exercicio10Mod;
 
-import java.util.ArrayList;
-
 public class Client {
 
     private String nome;
