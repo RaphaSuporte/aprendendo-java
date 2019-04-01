@@ -11,8 +11,8 @@ public class Client {
     }
 
     public Client ( String nome, Integer points ) {
-        this.nome = nome;
-        this.points = points;
+        this.setNome(nome);
+        this.setPoints(points);
     }
 
     public Integer getPoints() {
@@ -23,6 +23,13 @@ public class Client {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPoints(Integer points) {
+        this.points = points;
+    }
 }
 
 

@@ -1,5 +1,6 @@
 package Exercicio10Mod;
 
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -27,6 +28,7 @@ public class Main1 {
         Integer compra = 0;
         String origin;
         String destination;
+        boolean ticketFound = false;
         int i;
 
 
@@ -36,10 +38,8 @@ public class Main1 {
             Client myClient = clients.get(i);
             saldo = myClient.getPoints();
             if (myClient.getNome().equals(nome)) {
-                if (saldo < 0) {
+                if (saldo <= 0) {
                     System.out.println("Saldo em Pontos Insuficiente! ");
-                    if (myClient.equals(nome)) {
-                    }
                 }
 
                 if (saldo != 0) {
@@ -51,30 +51,44 @@ public class Main1 {
                     System.out.println("Qual Destino da Passagem Deseja Comprar? ");
                     destination = scanner2.nextLine();
 
-                    for (i = 0; i < tickets.size(); )
-                        break;
-                        for (i = 0; i < tickets.size(); )
-                            break;
-                            Passage myTickets = tickets.get(i);
+                    for (i = 0; i < tickets.size(); i++) {
+                        Passage myTickets = tickets.get(i);
+                        if (myTickets.getOrigin().equals(origin)) {
+                            saldo = myClient.getPoints();
                             compra = myTickets.getPoints();
-                            int total = saldo;
-                            total = (saldo - compra);
-                            if (myTickets.getOrigin().equals(origin) && myTickets.getDestination().equals(destination)) {
+                            int total = 0;
+                            total = saldo -= compra;
 
-                                System.out.println("Passagem Comprada com Sucesso, você possui agora " + total + " Pontos! ");
-                            } else {
-                                System.out.println("Passagem Não Existe!");
+
+                            if (saldo < 0) {
+                                System.out.println("Saldo Insuficiente!");
+
+                                System.exit(0);
+
+
                             }
-                            break;
+                            if (myTickets.getOrigin().equals(origin) && myTickets.getDestination().equals(destination)) {
+                                ticketFound = true;
+                                System.out.println("Passagem Comprada com Sucesso, você possui agora " + saldo + " Pontos! ");
+
+                                System.exit(0);
+
+
+                            }
+                            if (ticketFound == false) {
+                                System.out.println("Passagem Não Existe!");
+
+                                System.exit(0);
+                            }
 
                         }
-                    }
 
+                    }
                 }
             }
         }
-
-
+    }
+}
 
 
 

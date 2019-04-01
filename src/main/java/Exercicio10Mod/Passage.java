@@ -24,7 +24,7 @@ public class Passage {
         return destination;
     }
 
-    public Integer getPoints () {
+    public Integer getPoints() {
         return points;
 
     }
