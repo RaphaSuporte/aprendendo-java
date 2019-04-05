@@ -2,103 +2,151 @@ package Exercício13;
 
 public class Carro {
 
-    String modelo;
-    String cor;
-    String marca;
-    int chassi;
-    String proprietário;
-    double velocidadeMaxima;
-    double velocidadeAtual;
-    int nrPortas;
-    Boolean temTetoSolar;
-    Boolean temCambioAutomatico;
-    double volumeCombustivel;
 
-    private String getModelo() {
+    private String modelo;
+    private String cor;
+    private String marca;
+    private int chassi;
+    private String proprietario;
+    private double velocidadeMaxima;
+    private double velocidadeAtual;
+    private int nrPortas;
+    private int nrMarcha;
+    private int marchaAtual;
+    private int marchaRe = 0;
+    private boolean temTetoSolar;
+    private boolean temCambioAutomatico;
+    private double volumeCombustivel;
+    private boolean ligado = false;
+
+    public String getModelo() {
         return modelo;
     }
 
-    private void setModelo(String modelo) {
+    public void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    private String getCor() {
+    public String getCor() {
         return cor;
     }
 
-    private void setCor(String cor) {
+    public void setCor(String cor) {
         this.cor = cor;
     }
 
-    private String getMarca() {
+    public String getMarca() {
         return marca;
     }
 
-    private void setMarca(String marca) {
+    public void setMarca(String marca) {
         this.marca = marca;
     }
 
-    private int getChassi() {
+    public int getChassi() {
         return chassi;
     }
 
-    private void setChassi(int chassi) {
+    public void setChassi(int chassi) {
         this.chassi = chassi;
     }
 
-    private String getProprietário() {
-        return proprietário;
+    public String getProprietario() {
+        return proprietario;
     }
 
-    private void setProprietário(String proprietário) {
-        this.proprietário = proprietário;
+    public void setProprietario(String proprietario) {
+        this.proprietario = proprietario;
     }
 
-    private double getVelocidadeMaxima() {
+    public double getVelocidadeMaxima() {
         return velocidadeMaxima;
     }
 
-    private void setVelocidadeMaxima(double velocidadeMaxima) {
+    public void setVelocidadeMaxima(double velocidadeMaxima) {
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
-    private double getVelocidadeAtual() {
+    public double getVelocidadeAtual() {
         return velocidadeAtual;
     }
 
-    private void setVelocidadeAtual(double velocidadeAtual) {
+    public void setVelocidadeAtual(double velocidadeAtual) {
         this.velocidadeAtual = velocidadeAtual;
     }
 
-    private int getNrPortas() {
+    public int getNrPortas() {
         return nrPortas;
     }
 
-    private void setNrPortas(int nrPortas) {
+    public void setNrPortas(int nrPortas) {
         this.nrPortas = nrPortas;
     }
 
-    private Boolean getTemTetoSolar() {
+    public boolean isTemTetoSolar() {
         return temTetoSolar;
     }
 
-    private void setTemTetoSolar(Boolean temTetoSolar) {
+    public void setTemTetoSolar(boolean temTetoSolar) {
         this.temTetoSolar = temTetoSolar;
     }
 
-    private Boolean getTemCambioAutomatico() {
+    public boolean isTemCambioAutomatico() {
         return temCambioAutomatico;
     }
 
-    private void setTemCambioAutomatico(Boolean temCambioAutomatico) {
+    public void setTemCambioAutomatico(boolean temCambioAutomatico) {
         this.temCambioAutomatico = temCambioAutomatico;
     }
 
-    private double getVolumeCombustivel() {
+    public double getVolumeCombustivel() {
         return volumeCombustivel;
     }
 
-    private void setVolumeCombustivel(double volumeCombustivel) {
+    public void setVolumeCombustivel(double volumeCombustivel) {
         this.volumeCombustivel = volumeCombustivel;
     }
+
+    public boolean isLigado() {
+        return ligado;
+    }
+
+    public void setLigado(boolean ligado) {
+        this.ligado = ligado;
+    }
+
+    public void acelera() {
+        this.velocidadeAtual++;
+    }
+
+    public void freia() {
+        setVelocidadeAtual(0);
+    }
+
+    public void trocaMarcha() {
+        if (marchaAtual < nrMarcha) {
+            this.marchaAtual++;
+        }
+
+        public void reduzMarcha() {
+            if (marchaAtual > 0) {
+                this.marchaAtual--;
+            }
+
+            public int marchaRe(){
+                if (velocidadeAtual > 0){
+                    this.velocidadeAtual = marchaRe;
+                }
+                else {
+                    System.out.println("Velocidade Superior a 0 Km/h!");
+                }
+
+                public double volumeCombustivel(){
+
+                }
+            }
+
+        }
+    }
+
 }

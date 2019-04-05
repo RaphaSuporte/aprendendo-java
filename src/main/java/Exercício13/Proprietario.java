@@ -6,90 +6,96 @@ public class Proprietario {
     private int cpf;
     private int rg;
     private int dataNascimento;
-    private String rua;
-    private String bairro;
-    private String cidade;
-    private String estado;
-    private int cep;
-    private String Complemento;
+    private Endereço;
 
-    private String getNome() {
+
+    public String getNome() {
         return nome;
     }
 
-    private void setNome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    private int getCpf() {
+    public int getCpf() {
         return cpf;
     }
 
-    private void setCpf(int cpf) {
+    public void setCpf(int cpf) {
         this.cpf = cpf;
     }
 
-    private int getRg() {
+    public int getRg() {
         return rg;
     }
 
-    private Proprietario(int rg) {
+    public void setRg(int rg) {
         this.rg = rg;
     }
 
-    private int getDataNascimento() {
+    public int getDataNascimento() {
         return dataNascimento;
     }
 
-    private void setDataNascimento(int dataNascimento) {
+    public void setDataNascimento(int dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
+    public class Endereço{
 
-    private String getRua() {
-        return rua;
+        private String rua;
+        private String bairro;
+        private String cidade;
+        private String estado;
+        private int cep;
+        private String Complemento;
+
+        public String getRua() {
+            return rua;
+        }
+
+        public void setRua(String rua) {
+            this.rua = rua;
+        }
+
+        public String getBairro() {
+            return bairro;
+        }
+
+        public void setBairro(String bairro) {
+            this.bairro = bairro;
+        }
+
+        public String getCidade() {
+            return cidade;
+        }
+
+        public void setCidade(String cidade) {
+            this.cidade = cidade;
+        }
+
+        public String getEstado() {
+            return estado;
+        }
+
+        public void setEstado(String estado) {
+            this.estado = estado;
+        }
+
+        public int getCep() {
+            return cep;
+        }
+
+        public void setCep(int cep) {
+            this.cep = cep;
+        }
+
+        public String getComplemento() {
+            return Complemento;
+        }
+
+        public void setComplemento(String complemento) {
+            Complemento = complemento;
+        }
     }
 
-    private void setRua(String rua) {
-        this.rua = rua;
-    }
-
-    private String getBairro() {
-        return bairro;
-    }
-
-    private void setBairro(String bairro) {
-        this.bairro = bairro;
-    }
-
-    private String getCidade() {
-        return cidade;
-    }
-
-    private void setCidade(String cidade) {
-        this.cidade = cidade;
-    }
-
-    private String getEstado() {
-        return estado;
-    }
-
-    private void setEstado(String estado) {
-        this.estado = estado;
-    }
-
-    private int getCep() {
-        return cep;
-    }
-
-    private void setCep(int cep) {
-        this.cep = cep;
-    }
-
-    private String getComplemento() {
-        return Complemento;
-    }
-
-    private void setComplemento(String complemento) {
-        Complemento = complemento;
-    }
 }
