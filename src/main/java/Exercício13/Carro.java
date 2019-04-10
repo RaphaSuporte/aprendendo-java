@@ -3,21 +3,23 @@ package Exercício13;
 public class Carro {
 
 
+    private Object nome;
+    private Object nrModelos;
+    private Object anoLancamento;
+    private Object codigoIdentificador;
     private String modelo;
     private String cor;
     private String marca;
     private int chassi;
     private String proprietario;
     private double velocidadeMaxima;
-    private double velocidadeAtual;
+    private int velocidadeAtual;
     private int nrPortas;
-    private int nrMarcha;
-    private int marchaAtual;
     private int marchaRe = 0;
     private boolean temTetoSolar;
     private boolean temCambioAutomatico;
     private double volumeCombustivel;
-    private boolean ligado = false;
+
 
     public String getModelo() {
         return modelo;
@@ -71,7 +73,7 @@ public class Carro {
         return velocidadeAtual;
     }
 
-    public void setVelocidadeAtual(double velocidadeAtual) {
+    public void setVelocidadeAtual(int velocidadeAtual) {
         this.velocidadeAtual = velocidadeAtual;
     }
 
@@ -107,46 +109,65 @@ public class Carro {
         this.volumeCombustivel = volumeCombustivel;
     }
 
-    public boolean isLigado() {
-        return ligado;
-    }
-
-    public void setLigado(boolean ligado) {
-        this.ligado = ligado;
-    }
-
-    public void acelera() {
-        this.velocidadeAtual++;
-    }
-
-    public void freia() {
-        setVelocidadeAtual(0);
-    }
-
-    public void trocaMarcha() {
-        if (marchaAtual < nrMarcha) {
-            this.marchaAtual++;
+    public int getTrocaMarcha(){
+        if(velocidadeAtual>0 && velocidadeAtual <=20){
+            return 1;
         }
-
-        public void reduzMarcha() {
-            if (marchaAtual > 0) {
-                this.marchaAtual--;
-            }
-
-            public int marchaRe(){
-                if (velocidadeAtual > 0){
-                    this.velocidadeAtual = marchaRe;
-                }
-                else {
-                    System.out.println("Velocidade Superior a 0 Km/h!");
-                }
-
-                public double volumeCombustivel(){
-
-                }
-            }
-
+        if(velocidadeAtual>21 && velocidadeAtual <=40){
+            return 2;
         }
+        if(velocidadeAtual>41 && velocidadeAtual <=60){
+            return 3;
+        }
+        if(velocidadeAtual>61 && velocidadeAtual <=80){
+            return 4;
+        }
+        if(velocidadeAtual>81){
+            return 5;
+        }
+        return 0;
+    }
+
+    public void acelera(int acelera) {
+        if (acelera >= velocidadeAtual) {
+            acelera += velocidadeAtual;
+        } else {
+            System.out.println(" Atenção !! velocidade inválida !!");
+        }
+    }
+
+    public void marchaRe() {
+        if (velocidadeAtual == 0) {
+            this.velocidadeAtual = marchaRe;
+        } else {
+            System.out.println("Velocidade Superior a 0 Km/h!");
+        }
+    }
+
+    public void freia(){
+        if (velocidadeAtual == 0){
+            System.out.println("Veiculo Parado! ");
+        }
+    }
+    public int ReduzMarcha(){
+        if(velocidadeAtual>0 && velocidadeAtual <20){
+            return 1;
+        }
+        if(velocidadeAtual>21 && velocidadeAtual <40){
+            return 2;
+        }
+        if(velocidadeAtual>41 && velocidadeAtual <60){
+            return 3;
+        }
+        if(velocidadeAtual>61 && velocidadeAtual <80){
+            return 4;
+        }
+        if(velocidadeAtual<90){
+            return 5;
+        }
+        return 0;
     }
 
 }
+
+

@@ -1,13 +1,13 @@
 package Exercício13;
 
+
 public class Proprietario {
 
     private String nome;
-    private int cpf;
-    private int rg;
+    private long cpf;
+    private long rg;
     private int dataNascimento;
-    private Endereço;
-
+    private Endereco endereco;
 
     public String getNome() {
         return nome;
@@ -17,19 +17,19 @@ public class Proprietario {
         this.nome = nome;
     }
 
-    public int getCpf() {
+    public long getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(Integer cpf) {
         this.cpf = cpf;
     }
 
-    public int getRg() {
+    public long getRg() {
         return rg;
     }
 
-    public void setRg(int rg) {
+    public void setRg(Integer rg) {
         this.rg = rg;
     }
 
@@ -40,7 +40,16 @@ public class Proprietario {
     public void setDataNascimento(int dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
-    public class Endereço{
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco() {
+        this.endereco = endereco;
+    }
+
+    public static class Endereco{
 
         private String rua;
         private String bairro;
