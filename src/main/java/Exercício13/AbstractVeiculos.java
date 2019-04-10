@@ -1,6 +1,6 @@
 package Exercício13;
 
-    abstract class veiculos{
+   abstract class veiculos{
 
         protected String modelo;
         protected String cor;
@@ -48,12 +48,5 @@ package Exercício13;
             this.proprietario = proprietario;
         }
 
-        public veiculos(String modelo, String cor, String marca, double velocidadeAtual, Proprietario proprietario) {
-            this.modelo = modelo;
-            this.cor = cor;
-            this.marca = marca;
-            this.velocidadeAtual = velocidadeAtual;
-            this.proprietario = proprietario;
-        }
     }
 

@@ -38,4 +38,11 @@ public class MarcaJava {
     public void setCodigoIdentificador(int codigoIdentificador) {
         this.codigoIdentificador = codigoIdentificador;
     }
+
+    public MarcaJava(String nome, int nrDeModelos, int anoDeLancamento, int codigoIdentificador) {
+        this.nome = nome;
+        this.nrDeModelos = nrDeModelos;
+        this.anoDeLancamento = anoDeLancamento;
+        this.codigoIdentificador = codigoIdentificador;
+    }
 }

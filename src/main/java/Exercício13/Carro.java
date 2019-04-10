@@ -1,19 +1,14 @@
 package Exercício13;
 
-public class Carro {
+public class Carro extends veiculos{
 
 
-    private Object nome;
-    private Object nrModelos;
-    private Object anoLancamento;
-    private Object codigoIdentificador;
-    private String modelo;
-    private String cor;
-    private String marca;
+    private String nome;
+    private int nrModelos;
+    private int anoLancamento;
+    private int codigoIdentificador;
     private int chassi;
-    private String proprietario;
     private double velocidadeMaxima;
-    private int velocidadeAtual;
     private int nrPortas;
     private int marchaRe = 0;
     private boolean temTetoSolar;
@@ -51,14 +46,6 @@ public class Carro {
 
     public void setChassi(int chassi) {
         this.chassi = chassi;
-    }
-
-    public String getProprietario() {
-        return proprietario;
-    }
-
-    public void setProprietario(String proprietario) {
-        this.proprietario = proprietario;
     }
 
     public double getVelocidadeMaxima() {
