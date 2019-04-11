@@ -1,12 +1,12 @@
 package Exercício13;
 
-   abstract class veiculos{
+   abstract class AbstractVeiculos{
 
         protected String modelo;
         protected String cor;
-        protected String marca;
+        protected Marca marca;
         protected double velocidadeAtual;
-        private Proprietario proprietario;
+        protected Proprietario proprietario;
 
         public String getModelo() {
             return modelo;
@@ -24,14 +24,6 @@ package Exercício13;
             this.cor = cor;
         }
 
-        public String getMarca() {
-            return marca;
-        }
-
-        public void setMarca(String marca) {
-            this.marca = marca;
-        }
-
         public double getVelocidadeAtual() {
             return velocidadeAtual;
         }
@@ -46,6 +38,14 @@ package Exercício13;
 
         public void setProprietario(Proprietario proprietario) {
             this.proprietario = proprietario;
+        }
+
+        public Marca  getMarca() {
+            return marca;
+        }
+
+        public void setMarca(Marca marca){
+            this.marca = marca;
         }
 
     }

@@ -1,12 +1,14 @@
 package Exercício13;
 
 
+import java.util.Date;
+
 public class Proprietario {
 
     private String nome;
     private long cpf;
     private long rg;
-    private int dataNascimento;
+    private Date dataNascimento;
     private Endereco endereco;
 
     public String getNome() {
@@ -33,23 +35,21 @@ public class Proprietario {
         this.rg = rg;
     }
 
-    public int getDataNascimento() {
+    public Date getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(int dataNascimento) {
+    public void setDataNascimento(Date dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 
-    public Endereco getEndereco() {
-        return endereco;
+    public Proprietario(String nome, long cpf, long rg) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.rg = rg;
     }
 
-    public void setEndereco() {
-        this.endereco = endereco;
-    }
-
-    public static class Endereco{
+    public static class Endereco {
 
         private String rua;
         private String bairro;
@@ -104,6 +104,13 @@ public class Proprietario {
 
         public void setComplemento(String complemento) {
             Complemento = complemento;
+        }
+
+        public Endereco(String rua, String bairro, String cidade, String estado) {
+            this.rua = rua;
+            this.bairro = bairro;
+            this.cidade = cidade;
+            this.estado = estado;
         }
     }
 

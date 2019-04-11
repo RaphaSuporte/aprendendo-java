@@ -1,12 +1,9 @@
 package Exercício13;
 
-public class Carro extends veiculos{
+public class Carro extends AbstractVeiculos{
 
 
     private String nome;
-    private int nrModelos;
-    private int anoLancamento;
-    private int codigoIdentificador;
     private int chassi;
     private double velocidadeMaxima;
     private int nrPortas;
@@ -30,14 +27,6 @@ public class Carro extends veiculos{
 
     public void setCor(String cor) {
         this.cor = cor;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
     }
 
     public int getChassi() {
@@ -93,6 +82,16 @@ public class Carro extends veiculos{
     }
 
     public void setVolumeCombustivel(double volumeCombustivel) {
+        this.volumeCombustivel = volumeCombustivel;
+    }
+
+    public Carro(String nome, int chassi, double velocidadeMaxima, int nrPortas, boolean temTetoSolar, boolean temCambioAutomatico, double volumeCombustivel) {
+        this.nome = nome;
+        this.chassi = chassi;
+        this.velocidadeMaxima = velocidadeMaxima;
+        this.nrPortas = nrPortas;
+        this.temTetoSolar = temTetoSolar;
+        this.temCambioAutomatico = temCambioAutomatico;
         this.volumeCombustivel = volumeCombustivel;
     }
 

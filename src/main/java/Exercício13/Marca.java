@@ -1,6 +1,6 @@
 package Exercício13;
 
-public class MarcaJava {
+public class Marca {
 
     private String nome;
     private int nrDeModelos;
@@ -39,7 +39,7 @@ public class MarcaJava {
         this.codigoIdentificador = codigoIdentificador;
     }
 
-    public MarcaJava(String nome, int nrDeModelos, int anoDeLancamento, int codigoIdentificador) {
+    public Marca(String nome, int nrDeModelos, int anoDeLancamento, int codigoIdentificador) {
         this.nome = nome;
         this.nrDeModelos = nrDeModelos;
         this.anoDeLancamento = anoDeLancamento;
