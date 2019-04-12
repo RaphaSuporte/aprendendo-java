@@ -1,17 +1,24 @@
 package Exercício13;
 
+import Exercicio10Mod.Endereco;
+
 public class TesteAutomovel {
 
     public static void main(String[] args) {
 
-        Proprietario proprietario = new Proprietario("Lucas",329865222,1546566666);
-        Proprietario.Endereco endereco = new Proprietario.Endereco("Ai pai Para","Fala Fino","Campinas","São Paulo");
-        Marca marca = new Marca("Fiat", 5, 2019,123);
-        Carro carro = new Carro("147",523555555, 100,4,(false),(true),35);
+        Endereco endereco = new Endereco("Ai Pai Para","Fala Fino","campinas","são Paulo");
+        Proprietario proprietario = new Proprietario("Lucas", 329856225, 65656656);
+        Marca marca = new Marca("Chevrolet",1,2010,123);
+        Carro carro = new Carro("Camaro",123568998,300,2,(true),(true),50,"Amarelo");
+
+
 
         carro.setMarca(marca);
 
-        System.out.println();
+        System.out.println("Nome Proprietário: " + proprietario.getNome() + "\n" + "Cpf: " + proprietario.getCpf() + "\n" + "Rg: " + proprietario.getRg());
+        System.out.println("Endereço Rua: " + endereco.getRua() + "\n" + "Bairro: " + endereco.getBairro() + "\n" + "Cidade: " + endereco.getCidade() + "\n" +"Estado: " + endereco.getEstado());
+        System.out.println("Marca: " + marca.getNome() + "\n" + "Ano Lançamento: "  + marca.getAnoDeLancamento() + "\n"  + "Código Identificador: " + marca.getCodigoIdentificador());
+        System.out.println("Carro: " + carro.getModelo() + "\n" + "Cor: " + carro.getCor() + "\n" + "Chassi: " + carro.getChassi() + "\n" + "Numero de Portas: " + carro.getNrPortas());
 
             }
         }

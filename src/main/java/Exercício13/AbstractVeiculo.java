@@ -1,12 +1,17 @@
 package Exercício13;
 
-   abstract class AbstractVeiculos{
+   abstract class AbstractVeiculo
+   {
 
         protected String modelo;
         protected String cor;
         protected Marca marca;
         protected double velocidadeAtual;
         protected Proprietario proprietario;
+
+        public class Carro extends AbstractVeiculo{
+
+        }
 
         public String getModelo() {
             return modelo;

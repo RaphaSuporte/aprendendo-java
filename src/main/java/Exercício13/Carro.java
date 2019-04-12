@@ -1,9 +1,9 @@
 package Exercício13;
 
-public class Carro extends AbstractVeiculos{
+public class Carro extends AbstractVeiculo{
 
 
-    private String nome;
+    private String modelo;
     private int chassi;
     private double velocidadeMaxima;
     private int nrPortas;
@@ -11,6 +11,8 @@ public class Carro extends AbstractVeiculos{
     private boolean temTetoSolar;
     private boolean temCambioAutomatico;
     private double volumeCombustivel;
+    private String cor;
+    private Marca marca;
 
 
     public String getModelo() {
@@ -85,14 +87,15 @@ public class Carro extends AbstractVeiculos{
         this.volumeCombustivel = volumeCombustivel;
     }
 
-    public Carro(String nome, int chassi, double velocidadeMaxima, int nrPortas, boolean temTetoSolar, boolean temCambioAutomatico, double volumeCombustivel) {
-        this.nome = nome;
+    public Carro(String modelo, int chassi, double velocidadeMaxima, int nrPortas, boolean temTetoSolar, boolean temCambioAutomatico, double volumeCombustivel, String cor) {
+        this.modelo = modelo;
         this.chassi = chassi;
         this.velocidadeMaxima = velocidadeMaxima;
         this.nrPortas = nrPortas;
         this.temTetoSolar = temTetoSolar;
         this.temCambioAutomatico = temCambioAutomatico;
         this.volumeCombustivel = volumeCombustivel;
+        this.cor = cor;
     }
 
     public int getTrocaMarcha(){
