@@ -2,10 +2,10 @@ package Exercício13;
 
 public class Marca {
 
-    private String nome;
-    private int nrDeModelos;
-    private int anoDeLancamento;
-    private int codigoIdentificador;
+    protected String nome;
+    protected int nrDeModelos;
+    protected int anoDeLancamento;
+    protected int codigoIdentificador;
 
     public String getNome() {
         return nome;
